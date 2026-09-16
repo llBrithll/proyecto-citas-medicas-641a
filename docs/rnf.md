@@ -1,7 +1,7 @@
 # Requerimientos no funcionales
 
 | # | Atributo | Métrica | Umbral | Condición de carga | Verificación | Consecuencia si no se cumple |
-|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---| fd
 | 1 | Rendimiento | p95 de latencia | Menor a 400 ms | 200 usuarios concurrentes | Prueba de carga | Los usuarios pueden percibir lentitud y abandonar el proceso de reserva |
 | 2 | Disponibilidad | Porcentaje de disponibilidad mensual | Mayor o igual al 99.5% | Operación normal del sistema | Monitoreo de disponibilidad | Los pacientes no podrían consultar o gestionar sus citas |
 | 3 | Seguridad | Intentos fallidos permitidos | Máximo 5 intentos consecutivos | Inicio de sesión de usuarios | Prueba funcional de autenticación | Puede aumentar el riesgo de accesos no autorizados |
